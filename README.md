@@ -12,15 +12,15 @@ https://65762782836c4c65e2533bac--sage-pony-c335f0.netlify.app/login
 
 
 Setup Instructions:
-Clone this repository.
+*Clone this repository*
 
 Run: npm install
 // to install dependencies.
-//type :- npm i    in terminal 
+//type :- npm i       (  in terminal )
 
 Execute :-  npm start     
  //to launch the application locally.
-//type command npm start     in terminal
+//type command npm start        ( in terminal)
 
 
 
