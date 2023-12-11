@@ -8,7 +8,7 @@ Deploy link:
 
 //visit this link to see react application :
 
-https://65762782836c4c65e2533bac--sage-pony-c335f0.netlify.app/login
+https://funny-hummingbird-683de2.netlify.app/login
 
 
 Setup Instructions:
