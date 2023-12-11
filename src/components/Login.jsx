@@ -9,6 +9,7 @@ import swal from 'sweetalert';
 
 function Login() {
   const navigate = useNavigate();
+  const [isText,setIsText]=useState(false)
   const [input, setInput] = useState({
     name: '',
     email: '',
@@ -58,7 +59,7 @@ function Login() {
           fullWidth
           margin="normal"
           name="name"
-          value={input.name}
+          value={input.name.toLowerCase()}
           onChange={(e) => setInput({ ...input, [e.target.name]: e.target.value })}
           InputProps={{
             startAdornment: <MdPerson  color='brown' size={20} />,
@@ -80,6 +81,7 @@ function Login() {
             startAdornment: <MdLock color='brown' size={20} />,
           }}
         />
+  
 
 <RadioGroup
           row
